@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.main_wrapper {
+  width: 500px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+
+  cursor: pointer;
+}
